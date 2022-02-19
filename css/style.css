@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 570px;
+    padding-top: 30px;
+    background-color: #4b5964;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    color: white;
+    display: inline;
+    margin-right: 40px;
+    font-size: 20px;
+}
+a{
+    margin-left: 15px;
+    color: white;
+}
+hr{
+    
+    border-color: #ffffff;;
+}
+
+h1{
+    text-align: center;
+    color: #596872;
+}
+
+h2{
+    text-align: justify;
+    color: #596872;
+    margin-left: 62px;
+    font-size: 32px;
+}
+
+h3{
+    color:#565a5c;
+}
+
+p{
+    font-size: 20px;
+    color: #898d90;
+    
+}
+
+
+h4{
+    font-size: 12px;
+    color: #c9cccf;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: #898d90;
+    font-size: 18px;
+}
+
+
+.logo{
+    width: 178px;
+    height: 60px;
+}
+.uno{
+    color: white;
+}
+.image_iphone{
+    height: 430px;
+}
+.titulo_superior{
+    color: white;
+}
+
+.parteSuperior{
+    display: flex;
+    justify-content: space-around;
+}
+
+.parteMediaSuperior{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.superior2{
+    margin-left: 105px;
+    margin-top: 50px;
+    grid-column: 2/2;
+}
+
+.superior1{
+    margin-left: 215px;
+    margin-top: 50px;
+}
+
+.titulo_superior{
+    font-weight:bold;
+    font-size: 50px;
+}
+
+.text_superior1{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.text_superior2{
+    font-size: 20px;
+    color: #898d90;
+}
+
+
+.button_Superior{
+    margin-right: 15px;
+    background: #3d93d1;
+    box-shadow: inset 0px -1px 2px #000000, 
+    inset 0px 0px 0px #3d93d1;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    width: 230px;
+    height: 51px;
+    font-size: 20px;
+}
+.buttonMenu{
+    margin-right: 15px;
+    background: #3b454c;
+    box-shadow: inset 0px -1px 0px #7e7e7e, 
+    inset 0px 1px 4px #1b1c1c;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    width: 106px;
+    height: 37px;
+    font-size: 20px;
+}
+.dos{
+    color: #00aced;
+}
+.marcas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ededed;
+    height: 90px;
+}
+
+.logoMarca{
+    width: 100px;
+    height: 60px;
+}
+
+.imgSection{
+    width: 190px;
+    height: 184px;
+}
+
+.section_principal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 77vh;
+    margin-top: 112px;
+}
+
+.section{
+    text-align: center;
+
+ } 
+.titulosSection{
+    color: #7a858d;
+}
+
+.textInferior{
+    font-size: 20px;
+    color: #898d90;
+}
+
+.buttonInferior{
+    margin-right: 15px;
+    background: #3d93d1;
+    box-shadow: inset 2px -2px 1px #4b7ebd, 
+    inset 0px 0px 4px #ffffff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+
+}
+
+.section_imagenes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 45vh;
+    margin-left: 60px;
+}
+
+.imageS{
+    width: 326px;
+    height: 253px;
+}
+
+
+.section2{
+    padding:6px 6px 7px 6px;
+    background-color: #f5f5f5;
+    width: 340px;
+    height: 267px;
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+}
+.img_emoticon{
+    width: 35px;
+    height: 30px;
+    margin-right: 18px;
+}
+
+.section_inferior1{
+    display: flex;
+    margin-left: 55px;
+} 
+
+.section_inferior2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -560px;
+    margin-right: 157px;
+}
+.text{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.section_inferior2-1{
+    flex-direction: column;
+
+}
+
+.tituloTw{
+    margin-left: 3px;
+}
+
+.imageS1{
+    width: 326px;
+    height: 253px;
+    padding:6px 6px 7px 6px;
+    background-color: #f5f5f5;
+    width: 251px;
+    height: 195px;
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.text_twitter{
+    font-size: 20px;
+}
+
+.azul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: -31px;
+    font-size: 17px;
+    color: #00aced;
+} 
+
+.azul1{
+    display: flex;
+    flex-direction: row;
+    margin-left: -2px;
+    margin-top: 96px;
+    font-size: 17px;
+    color: #00aced;
+} 
+
+.logosFinales{
+    margin-right: 167px;
+}
+
+.loguitosFinales{
+    margin-right: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 992px){
+    
+    body{
+        width: 122vw;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    .superior2{
+        margin-left: 23px;
+        margin-top: 46px;
+    }
+    
+    .superior1{
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .text_superior1{
+        font-size: 17px;
+    }
+    
+    .text_superior2{
+        font-size: 17px;
+    }
+
+    .section_principal{
+        margin-top: 70px;
+        height: 100vh;
+    }
+
+    .section_imagenes{
+        height: 60vh;
+    }
+    .imgSection{
+        width: 150px;
+        height: 150px;
+    }
+
+    .textInferior{
+        font-size: 15px;
+    }
+    .buttonInferior{
+        height: 50px;
+    }
+    .section2{
+        width: 228px;
+        height: 196px;
+    }
+
+    .imageS {
+        width: 211px;
+        height: 181px;
+    }
+
+    .imageS1 {
+        width: 211px;
+        height: 181px;
+    }
+
+    .section_inferior2{
+        padding-top: 35px;
+        margin-right: 23px;
+    }
+    
+    .text_twitter{
+        font-size: 15px;
+    }
+
+    .azul1{
+        margin-top: 129px
+    }
+}   
+
+@media (max-width: 768px){
+    
+    body{
+        width: 126vw;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size:18px ;
+    }
+    
+    p{
+        font-size: 13px;
+    }
+
+    ul li{
+        
+        font-size: 17px;
+    }
+    .superior2{
+        margin-left: 23px;
+        margin-top: 46px;
+    }
+    
+    .superior1{
+        margin-left: 73px;
+        margin-top: 49px;
+    }
+
+    .text_superior1{
+        font-size: 15px;
+    }
+    
+    .text_superior2{
+        font-size: 15px;
+    }
+
+    .section_principal{
+        margin-top: 70px;
+        height: 85vh;
+    }
+
+    .section_imagenes{
+        height: 60vh;
+    }
+    .imgSection{
+        width: 132px;
+        height: 128px;
+    }
+
+    .textInferior{
+        font-size: 13px;
+    }
+    .buttonInferior{
+        height: 36px;
+        width: 115px;
+        font-size: 14px;
+    }
+    .section2{
+        width: 190px;
+        height: 167px;
+    }
+
+    .imageS {
+        width: 178px;
+        height: 153px;
+    }
+
+    .imageS1 {
+        width: 178px;
+        height: 153px;
+    }
+    .section_inferior1 {
+        margin-left: 30px;
+    }
+    .section_inferior2{
+        padding-top: 92px;
+        margin-right: 23px;
+    }
+    
+    .text_twitter{
+        font-size: 13px;
+    }
+
+    .text{
+        margin-left: 26px;
+    }
+
+    .azul1{
+        margin-top: 101px
+    }
+
+    .buttonMenu{
+        width: 97px;
+        height: 33px;
+        font-size: 17px;
+    }
+
+    .button_Superior{
+        width: 180px;
+        height: 43px;
+        font-size: 15px;
+    }
+
+    .titulo_superior{
+        font-size: 37px;
+    }
+
+    .marcas{
+        height: 72px;
+    }
+
+    .logoMarca{
+        width: 66px;
+        height: 49px;
+    }
+}   
+
+@media (max-width: 450px){
+    
+    body{
+        width: 183vw;
+    }
+
+    header{
+        height: 489px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size:15px ;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+    ul li{
+        
+        font-size: 17px;
+    }
+
+    .image_iphone {
+        height: 348px;
+        width: 270px;
+    }
+    .superior2{
+        margin-left: 4px;
+        margin-top: 46px;
+    }
+    
+    .superior1{
+        margin-left: 73px;
+        margin-top: 49px;
+    }
+
+    .text_superior1{
+        font-size: 13px;
+    }
+    
+    .text_superior2{
+        font-size: 13px;
+    }
+
+    .section_principal{
+        margin-top: 70px;
+        height: 70vh;
+    }
+
+    .section_imagenes{
+        height: 30vh;
+    }
+    .imgSection{
+        width: 100px;
+        height: 100px;
+    }
+
+    .textInferior{
+        font-size: 10px;
+    }
+    .buttonInferior{
+        height: 36px;
+        width: 115px;
+        font-size: 14px;
+    }
+    .section2{
+        width: 128px;
+        height: 111px;
+    }
+
+    .imageS {
+        width: 115px;
+        height: 100px;
+    }
+
+    .imageS1 {
+        width: 115px;
+        height: 100px;
+    }
+    .section_inferior1 {
+        margin-left: 30px;
+    }
+    .section_inferior2{
+        padding-top: 198px;
+        margin-right: 50px;
+    }
+    
+    .text_twitter{
+        font-size: 10px;
+    }
+
+    .text{
+        margin-left: 26px;
+    }
+
+    .azul1{
+        margin-top: 35px
+    }
+
+    .buttonMenu{
+        width: 97px;
+        height: 33px;
+        font-size: 17px;
+    }
+
+    .button_Superior{
+        width: 148px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    .titulo_superior{
+        font-size: 30px;
+    }
+
+    .marcas{
+        height: 72px;
+    }
+
+    .logoMarca{
+        width: 66px;
+        height: 49px;
+    }
+}   
+
