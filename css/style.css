@@ -521,36 +521,63 @@ footer{
     }
 
     header{
-        height: 489px;
+        height: 230px;
     }
 
     h1{
-        font-size: 22px;
+        font-size: 12px;
     }
 
     h2{
-        font-size: 30px;
+        font-size: 17px;
+        margin-left: 23px;
     }
 
     h3{
-        font-size:15px ;
+        font-size:10px ;
+    }
+
+    h4{
+      font-size: 4px;
     }
     
     p{
-        font-size: 10px;
+        font-size: 7px;
+    }
+
+    a{
+        font-size: 7px;
     }
 
     ul li{
-        
-        font-size: 17px;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    nav {
+        margin-right: 332px;
     }
 
+    footer{
+        font-size: 10px;
+        justify-content: space-between;
+        width: 100vw;
+    
+    }
+
+    .azul{
+        font-size: 10px;
+    }
+    .img_emoticon {
+        width: 21px;
+        height: 21px;
+        margin-right: 12px;
+    }
     .image_iphone {
-        height: 348px;
-        width: 270px;
+        height: 126px;
+        width: 106px;
     }
     .superior2{
-        margin-left: 4px;
+        margin-left: -197px;
         margin-top: 46px;
     }
     
@@ -560,58 +587,66 @@ footer{
     }
 
     .text_superior1{
-        font-size: 13px;
+        font-size: 5px;
     }
     
     .text_superior2{
-        font-size: 13px;
+        font-size: 5px;
+        margin-top:-15px;
+        margin-bottom: -41px;
     }
 
     .section_principal{
-        margin-top: 70px;
-        height: 70vh;
+        margin-top: 20px;
+        height: 50vh;
+        width: 100vw;
     }
 
     .section_imagenes{
-        height: 30vh;
+        height:20vh;
+        width: 100vw;
+        margin-left: 23px;
     }
     .imgSection{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 64px;
     }
 
     .textInferior{
-        font-size: 10px;
+        font-size: 5px;
     }
     .buttonInferior{
-        height: 36px;
-        width: 115px;
-        font-size: 14px;
+        height: 18px;
+        width: 75px;
+        font-size: 8px;
     }
     .section2{
-        width: 128px;
-        height: 111px;
+        width: 76px;
+        height: 72px;
     }
 
     .imageS {
-        width: 115px;
-        height: 100px;
+        width: 70px;
+        height: 60px;
     }
 
     .imageS1 {
-        width: 115px;
-        height: 100px;
+        width: 70px;
+        height: 60px;
     }
     .section_inferior1 {
-        margin-left: 30px;
+        margin-left: 20px;
+    }
+    .tituloTw {
+        font-size: 17px;
+        margin-left: -11px;
     }
     .section_inferior2{
-        padding-top: 198px;
-        margin-right: 50px;
+       padding-top: 303px;
+       margin-right: 380px;
     }
-    
     .text_twitter{
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .text{
@@ -619,32 +654,48 @@ footer{
     }
 
     .azul1{
-        margin-top: 35px
+        margin-top: 79px;
+        font-size: 10px;
     }
 
     .buttonMenu{
-        width: 97px;
-        height: 33px;
-        font-size: 17px;
+        width: 56px;
+        height: 19px;
+        font-size: 10px;
     }
 
     .button_Superior{
-        width: 148px;
-        height: 44px;
-        font-size: 13px;
+        width: 89px;
+        height: 25px;
+        font-size: 7px;
     }
 
     .titulo_superior{
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .marcas{
         height: 72px;
+        width: 102vw;
     }
 
     .logoMarca{
-        width: 66px;
-        height: 49px;
+        width: 40px;
+        height: 30px;
+    }
+
+    .logo {
+        width: 63px;
+        height: 24px;
+    }
+
+    .uno{
+        font-size: 7px;
+    }
+
+    .loguitosFinales {
+        margin-right: 5px;
+        width: 20px;
     }
 }   
 
