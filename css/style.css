@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -85,6 +86,7 @@ footer{
 }
 .image_iphone{
     height: 430px;
+   
 }
 .titulo_superior{
     color: white;
@@ -105,16 +107,20 @@ footer{
     margin-left: 105px;
     margin-top: 50px;
     grid-column: 2/2;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    textCursor 500ms steps(44) infinite normal;
 }
 
 .superior1{
     margin-left: 215px;
     margin-top: 50px;
+    
 }
 
 .titulo_superior{
     font-weight:bold;
     font-size: 50px;
+    
 }
 
 .text_superior1{
@@ -126,6 +132,8 @@ footer{
 .text_superior2{
     font-size: 20px;
     color: #898d90;
+    
+    
 }
 
 
@@ -192,6 +200,8 @@ footer{
 .textInferior{
     font-size: 20px;
     color: #898d90;
+    animation: type 4s steps(44) 1s 1 normal both,
+    textCursor 500ms steps(44) infinite normal;
 }
 
 .buttonInferior{
@@ -245,11 +255,13 @@ footer{
     display: flex;
     justify-content: flex-end;
     margin-top: -560px;
-    margin-right: 157px;
+    margin-right: 70px;
 }
 .text{
     margin-left: 50px;
     font-size: 20px;
+    animation: text 4s steps(44) 1s 1 normal both,
+    textCursor 500ms steps(44) infinite normal;
 }
 .section_inferior2-1{
     flex-direction: column;
@@ -275,7 +287,9 @@ footer{
 
 
 .text_twitter{
-    font-size: 20px;
+    font-size: 19px;
+    animation: tw 4s steps(44) 1s 1 normal both,
+    textCursor 500ms steps(44) infinite normal;
 }
 
 .azul{
@@ -291,7 +305,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin-left: -2px;
-    margin-top: 96px;
+    margin-top: 112px;
     font-size: 17px;
     color: #00aced;
 } 
@@ -302,6 +316,37 @@ footer{
 
 .loguitosFinales{
     margin-right: 10px;
+}
+.line-1{
+    white-space:nowrap;
+    overflow: hidden; 
+    
+} 
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 37em;}
+}
+
+@keyframes type{
+    from{width: 0;}
+    to{width: 25em;}
+}
+@keyframes tw{
+    from{width: 0;}
+    to{width: 25em;}
+}
+@keyframes text{
+    from{width: 0;}
+    to{width: 25em;}
+}
+@keyframes textCursor{
+    from{border-right-color: rgba(255, 255, 255, 0.75);}
+    to{border-right-color: transparent;} 
+} 
+
+@keyframes image{
+    0%{left: 0px; top:0px;}
+    25%{left: 200px; top:0px}
 }
 
 /* MEDIA QUERIES */
